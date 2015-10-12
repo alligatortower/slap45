@@ -1,0 +1,1252 @@
+/* http://neat.bourbon.io/docs/ */
+
+/* line 2, ../sass/neat/grid/_grid.scss */
+
+* {
+
+  -webkit-box-sizing: border-box;
+
+  -moz-box-sizing: border-box;
+
+  box-sizing: border-box; }
+
+
+
+/* line 6, ../sass/style.scss */
+
+html, body {
+
+  height: 100%; }
+
+
+
+/* line 9, ../sass/style.scss */
+
+body {
+
+  position: relative;
+
+  font-family: "ff-tisa-web-pro",serif; }
+
+
+
+/* line 13, ../sass/style.scss */
+
+h2, h3, p, blockquote, small, li {
+
+  line-height: 1.3em;
+
+  display: block; }
+
+  /* line 15, ../sass/bourbon/addons/_clearfix.scss */
+
+  h2:after, h3:after, p:after, blockquote:after, small:after, li:after {
+
+    content: "";
+
+    display: table;
+
+    clear: both; }
+
+
+
+/* line 17, ../sass/style.scss */
+
+h3 {
+
+  text-align: right;
+
+  font-size: 2em; }
+
+
+
+/* line 22, ../sass/style.scss */
+
+p {
+
+  margin-top: 0px; }
+
+
+
+/* line 26, ../sass/style.scss */
+
+section {
+
+  width: 100%;
+
+  height: auto;
+
+  min-height: 100% !important;
+
+  -webkit-transform: translate3d(0, 0, 0); }
+
+
+
+/* line 33, ../sass/style.scss */
+
+.contents {
+
+  max-width: 62.5em;
+
+  margin-left: auto;
+
+  margin-right: auto;
+
+  padding: 10% 0 15% 0; }
+
+  /* line 15, ../sass/bourbon/addons/_clearfix.scss */
+
+  .contents:after {
+
+    content: "";
+
+    display: table;
+
+    clear: both; }
+
+
+
+/* line 39, ../sass/style.scss */
+
+.black {
+
+  background-color: black;
+
+  color: white; }
+
+
+
+/* line 43, ../sass/style.scss */
+
+.red {
+
+  background-color: #ed553b;
+
+  color: white; }
+
+
+
+/* line 48, ../sass/style.scss */
+
+.teal {
+
+  background-color: #068587;
+
+  color: white; }
+
+
+
+/* line 53, ../sass/style.scss */
+
+.yellow {
+
+  background-color: #f2b134;
+
+  color: black; }
+
+
+
+/* line 58, ../sass/style.scss */
+
+.white {
+
+  background-color: white;
+
+  color: black; }
+
+
+
+/* line 63, ../sass/style.scss */
+
+#hvz-logo {
+
+  background: url("../img/webhvzsmall.jpg") no-repeat;
+
+  background-size: cover;
+
+  padding: 0 0 0 0; }
+
+  /* line 68, ../sass/style.scss */
+
+  #hvz-logo img {
+
+    margin-left: 25.58941%;
+
+    float: left;
+
+    display: block;
+
+    margin-right: 2.35765%;
+
+    width: 48.82117%; }
+
+    /* line 38, ../sass/neat/grid/_span-columns.scss */
+
+    #hvz-logo img:last-child {
+
+      margin-right: 0; }
+
+    @media screen and (min-width: 13.75em) and (max-width: 60em) {
+
+      /* line 68, ../sass/style.scss */
+
+      #hvz-logo img {
+
+        margin-left: 0%;
+
+        float: left;
+
+        display: block;
+
+        margin-right: 7.42297%;
+
+        width: 100%; }
+
+        /* line 38, ../sass/neat/grid/_span-columns.scss */
+
+        #hvz-logo img:last-child {
+
+          margin-right: 0; } }
+
+
+
+/* line 79, ../sass/style.scss */
+
+#intro {
+
+  text-align: center; }
+
+  /* line 82, ../sass/style.scss */
+
+  #intro p {
+
+    font-size: 38pt; }
+
+  /* line 86, ../sass/style.scss */
+
+  #intro img {
+
+    width: 100%;
+
+    max-width: 1000px; }
+
+
+
+/* line 92, ../sass/style.scss */
+
+#history {
+
+  padding: 0 0 0 0; }
+
+  /* line 95, ../sass/style.scss */
+
+  #history p {
+
+    font-size: 30pt; }
+
+  /* line 99, ../sass/style.scss */
+
+  #history .history-text {
+
+    display: block; }
+
+    /* line 15, ../sass/bourbon/addons/_clearfix.scss */
+
+    #history .history-text:after {
+
+      content: "";
+
+      display: table;
+
+      clear: both; }
+
+  /* line 102, ../sass/style.scss */
+
+  #history #videos {
+
+    display: block;
+
+    height: 180px; }
+
+    /* line 15, ../sass/bourbon/addons/_clearfix.scss */
+
+    #history #videos:after {
+
+      content: "";
+
+      display: table;
+
+      clear: both; }
+
+    /* line 106, ../sass/style.scss */
+
+    #history #videos .video-holder {
+
+      float: left;
+
+      display: block;
+
+      margin-right: 2.35765%;
+
+      width: 31.76157%;
+
+      text-align: center; }
+
+      /* line 38, ../sass/neat/grid/_span-columns.scss */
+
+      #history #videos .video-holder:last-child {
+
+        margin-right: 0; }
+
+      @media screen and (min-width: 13.75em) and (max-width: 60em) {
+
+        /* line 106, ../sass/style.scss */
+
+        #history #videos .video-holder {
+
+          float: left;
+
+          display: block;
+
+          margin-right: 7.42297%;
+
+          width: 100%; }
+
+          /* line 38, ../sass/neat/grid/_span-columns.scss */
+
+          #history #videos .video-holder:last-child {
+
+            margin-right: 0; } }
+
+      /* line 117, ../sass/style.scss */
+
+      #history #videos .video-holder .video-label {
+
+        font-size: 14px; }
+
+
+
+/* line 125, ../sass/style.scss */
+
+#quote blockquote {
+
+  font-size: 55pt;
+
+  font-style: italic; }
+
+
+
+#bullshit blockquote {
+
+  font-size: 55pt;
+
+  font-style: italic; }
+
+  #bullshit p {
+
+    font-size: 30pt; }
+
+  #bullshit ul li {
+
+    list-style: square outside none;
+
+    font-size: 28pt; }
+
+/* line 132, ../sass/style.scss */
+
+#rules p {
+
+  font-size: 20pt; }
+
+/* line 136, ../sass/style.scss */
+
+#rules h2 {
+
+  font-size: 22pt; }
+
+/* line 139, ../sass/style.scss */
+
+#rules a {
+
+  color: black; }
+
+/* line 142, ../sass/style.scss */
+
+#rules .contents {
+
+  padding: 10% 0 20% 0; }
+
+/* line 147, ../sass/style.scss */
+
+#rules .equipment-row {
+
+  min-height: 240px;
+
+  display: block; }
+
+  /* line 15, ../sass/bourbon/addons/_clearfix.scss */
+
+  #rules .equipment-row:after {
+
+    content: "";
+
+    display: table;
+
+    clear: both; }
+
+  /* line 150, ../sass/style.scss */
+
+  #rules .equipment-row .equipment-item {
+
+    float: left;
+
+    display: block;
+
+    margin-right: 2.35765%;
+
+    width: 31.76157%; }
+
+    /* line 38, ../sass/neat/grid/_span-columns.scss */
+
+    #rules .equipment-row .equipment-item:last-child {
+
+      margin-right: 0; }
+
+    @media screen and (min-width: 13.75em) and (max-width: 60em) {
+
+      /* line 150, ../sass/style.scss */
+
+      #rules .equipment-row .equipment-item {
+
+        float: left;
+
+        display: block;
+
+        margin-right: 7.42297%;
+
+        width: 100%; }
+
+        /* line 38, ../sass/neat/grid/_span-columns.scss */
+
+        #rules .equipment-row .equipment-item:last-child {
+
+          margin-right: 0; } }
+
+    /* line 155, ../sass/style.scss */
+
+    #rules .equipment-row .equipment-item .eq-big-img {
+
+      width: 100%; }
+
+    /* line 158, ../sass/style.scss */
+
+    #rules .equipment-row .equipment-item .eq-label {
+
+      font-size: 18pt; }
+
+    /* line 162, ../sass/style.scss */
+
+    #rules .equipment-row .equipment-item .check {
+
+      position: relative;
+
+      top: 15px;
+
+      max-width: 20%; }
+
+/* line 169, ../sass/style.scss */
+
+#rules .no-play-row {
+
+  min-height: 280px;
+
+  display: block;
+
+  margin-bottom: 30px; }
+
+  /* line 15, ../sass/bourbon/addons/_clearfix.scss */
+
+  #rules .no-play-row:after {
+
+    content: "";
+
+    display: table;
+
+    clear: both; }
+
+  /* line 173, ../sass/style.scss */
+
+  #rules .no-play-row .no-play-item {
+
+    float: left;
+
+    display: block;
+
+    margin-right: 2.35765%;
+
+    width: 14.70196%;
+
+    vertical-align: top; }
+
+    /* line 38, ../sass/neat/grid/_span-columns.scss */
+
+    #rules .no-play-row .no-play-item:last-child {
+
+      margin-right: 0; }
+
+    /* line 175, ../sass/style.scss */
+
+    #rules .no-play-row .no-play-item:first-child {
+
+      margin-left: 8.5298%; }
+
+      @media screen and (min-width: 13.75em) and (max-width: 60em) {
+
+        /* line 175, ../sass/style.scss */
+
+        #rules .no-play-row .no-play-item:first-child {
+
+          margin-left: 0%; } }
+
+    @media screen and (min-width: 13.75em) and (max-width: 60em) {
+
+      /* line 173, ../sass/style.scss */
+
+      #rules .no-play-row .no-play-item {
+
+        float: left;
+
+        display: block;
+
+        margin-right: 7.42297%;
+
+        width: 100%; }
+
+        /* line 38, ../sass/neat/grid/_span-columns.scss */
+
+        #rules .no-play-row .no-play-item:last-child {
+
+          margin-right: 0; } }
+
+    /* line 187, ../sass/style.scss */
+
+    #rules .no-play-row .no-play-item .no-play-img {
+
+      width: 100%; }
+
+    /* line 190, ../sass/style.scss */
+
+    #rules .no-play-row .no-play-item .no-play-label {
+
+      font-size: 18pt; }
+
+/* line 196, ../sass/style.scss */
+
+#rules .safety-row {
+
+  display: block; }
+
+  /* line 15, ../sass/bourbon/addons/_clearfix.scss */
+
+  #rules .safety-row:after {
+
+    content: "";
+
+    display: table;
+
+    clear: both; }
+
+  /* line 198, ../sass/style.scss */
+
+  #rules .safety-row .safety-item {
+
+    float: left;
+
+    display: block;
+
+    margin-right: 2.35765%;
+
+    width: 48.82117%; }
+
+    /* line 38, ../sass/neat/grid/_span-columns.scss */
+
+    #rules .safety-row .safety-item:last-child {
+
+      margin-right: 0; }
+
+    @media screen and (min-width: 13.75em) and (max-width: 60em) {
+
+      /* line 198, ../sass/style.scss */
+
+      #rules .safety-row .safety-item {
+
+        float: left;
+
+        display: block;
+
+        margin-right: 7.42297%;
+
+        width: 100%; }
+
+        /* line 38, ../sass/neat/grid/_span-columns.scss */
+
+        #rules .safety-row .safety-item:last-child {
+
+          margin-right: 0; } }
+
+    /* line 205, ../sass/style.scss */
+
+    #rules .safety-row .safety-item .safety-img {
+
+      float: left;
+
+      display: block;
+
+      margin-right: 4.82916%;
+
+      width: 30.11389%;
+
+      vertical-align: top;
+
+      position: relative; }
+
+      /* line 38, ../sass/neat/grid/_span-columns.scss */
+
+      #rules .safety-row .safety-item .safety-img:last-child {
+
+        margin-right: 0; }
+
+      @media screen and (min-width: 13.75em) and (max-width: 60em) {
+
+        /* line 205, ../sass/style.scss */
+
+        #rules .safety-row .safety-item .safety-img {
+
+          float: left;
+
+          display: block;
+
+          margin-right: 7.42297%;
+
+          width: 100%; }
+
+          /* line 38, ../sass/neat/grid/_span-columns.scss */
+
+          #rules .safety-row .safety-item .safety-img:last-child {
+
+            margin-right: 0; } }
+
+    /* line 215, ../sass/style.scss */
+
+    #rules .safety-row .safety-item .safety-text {
+
+      float: left;
+
+      display: block;
+
+      margin-right: 4.82916%;
+
+      width: 65.05695%;
+
+      vertical-align: top; }
+
+      /* line 38, ../sass/neat/grid/_span-columns.scss */
+
+      #rules .safety-row .safety-item .safety-text:last-child {
+
+        margin-right: 0; }
+
+      @media screen and (min-width: 13.75em) and (max-width: 60em) {
+
+        /* line 215, ../sass/style.scss */
+
+        #rules .safety-row .safety-item .safety-text {
+
+          float: left;
+
+          display: block;
+
+          margin-right: 7.42297%;
+
+          width: 100%; }
+
+          /* line 38, ../sass/neat/grid/_span-columns.scss */
+
+          #rules .safety-row .safety-item .safety-text:last-child {
+
+            margin-right: 0; } }
+
+      /* line 223, ../sass/style.scss */
+
+      #rules .safety-row .safety-item .safety-text ol {
+
+        list-style-position: inside;
+
+        margin-left: 0px;
+
+        padding-left: 5px; }
+
+        /* line 228, ../sass/style.scss */
+
+        #rules .safety-row .safety-item .safety-text ol li {
+
+          font-size: 25pt; }
+
+/* line 235, ../sass/style.scss */
+
+#rules .safety-disclaimer {
+
+  display: block;
+
+  margin-top: 20px; }
+
+  /* line 15, ../sass/bourbon/addons/_clearfix.scss */
+
+  #rules .safety-disclaimer:after {
+
+    content: "";
+
+    display: table;
+
+    clear: both; }
+
+  /* line 239, ../sass/style.scss */
+
+  #rules .safety-disclaimer small {
+
+    font-size: 9pt; }
+
+/* line 243, ../sass/style.scss */
+
+#rules .team-rules-row {
+
+  display: block; }
+
+  /* line 15, ../sass/bourbon/addons/_clearfix.scss */
+
+  #rules .team-rules-row:after {
+
+    content: "";
+
+    display: table;
+
+    clear: both; }
+
+  /* line 246, ../sass/style.scss */
+
+  #rules .team-rules-row .team-column {
+
+    float: left;
+
+    display: block;
+
+    margin-right: 2.35765%;
+
+    width: 48.82117%; }
+
+    /* line 38, ../sass/neat/grid/_span-columns.scss */
+
+    #rules .team-rules-row .team-column:last-child {
+
+      margin-right: 0; }
+
+    @media screen and (min-width: 13.75em) and (max-width: 60em) {
+
+      /* line 246, ../sass/style.scss */
+
+      #rules .team-rules-row .team-column {
+
+        float: left;
+
+        display: block;
+
+        margin-right: 7.42297%;
+
+        width: 100%; }
+
+        /* line 38, ../sass/neat/grid/_span-columns.scss */
+
+        #rules .team-rules-row .team-column:last-child {
+
+          margin-right: 0; } }
+
+/* line 253, ../sass/style.scss */
+
+#rules .dbag-row {
+
+  display: block; }
+
+  /* line 15, ../sass/bourbon/addons/_clearfix.scss */
+
+  #rules .dbag-row:after {
+
+    content: "";
+
+    display: table;
+
+    clear: both; }
+
+
+
+/* line 260, ../sass/style.scss */
+
+#info h2 {
+
+  font-size: 30pt; }
+
+/* line 263, ../sass/style.scss */
+
+#info p {
+
+  font-size: 25pt;
+
+  padding: 0 0 0 40px; }
+
+/* line 267, ../sass/style.scss */
+
+#info a {
+
+  color: #f2b134; }
+
+
+
+/* line 273, ../sass/style.scss */
+
+#footer a {
+
+  color: #ed553b; }
+
+/* line 277, ../sass/style.scss */
+
+#footer .gnar-info {
+
+  float: left;
+
+  display: block;
+
+  margin-right: 2.35765%;
+
+  width: 48.82117%; }
+
+  /* line 38, ../sass/neat/grid/_span-columns.scss */
+
+  #footer .gnar-info:last-child {
+
+    margin-right: 0; }
+
+  @media screen and (min-width: 13.75em) and (max-width: 60em) {
+
+    /* line 277, ../sass/style.scss */
+
+    #footer .gnar-info {
+
+      float: left;
+
+      display: block;
+
+      margin-right: 7.42297%;
+
+      width: 100%; }
+
+      /* line 38, ../sass/neat/grid/_span-columns.scss */
+
+      #footer .gnar-info:last-child {
+
+        margin-right: 0; } }
+
+  /* line 283, ../sass/style.scss */
+
+  #footer .gnar-info img {
+
+    width: 100%; }
+
+  /* line 288, ../sass/style.scss */
+
+  #footer .gnar-info li {
+
+    display: inline; }
+
+/* line 292, ../sass/style.scss */
+
+#footer .message {
+
+  float: left;
+
+  display: block;
+
+  margin-right: 2.35765%;
+
+  width: 48.82117%; }
+
+  /* line 38, ../sass/neat/grid/_span-columns.scss */
+
+  #footer .message:last-child {
+
+    margin-right: 0; }
+
+  @media screen and (min-width: 13.75em) and (max-width: 60em) {
+
+    /* line 292, ../sass/style.scss */
+
+    #footer .message {
+
+      float: left;
+
+      display: block;
+
+      margin-right: 7.42297%;
+
+      width: 100%; }
+
+      /* line 38, ../sass/neat/grid/_span-columns.scss */
+
+      #footer .message:last-child {
+
+        margin-right: 0; } }
+
+  /* line 298, ../sass/style.scss */
+
+  #footer .message .input-fields {
+
+    display: block;
+
+    width: 100%;
+
+    background-color: #f1f1f1;
+
+    border: none;
+
+    padding: 15px; }
+
+  /* line 305, ../sass/style.scss */
+
+  #footer .message .message-email {
+
+    margin-top: 15px; }
+
+  /* line 308, ../sass/style.scss */
+
+  #footer .message .message-body {
+
+    margin-top: 25px; }
+
+  /* line 311, ../sass/style.scss */
+
+  #footer .message button {
+
+    background-color: #c6c6c6;
+
+    border: none;
+
+    padding: 15px;
+
+    float: right;
+
+    margin-top: 20px; }
+
+    @media screen and (min-width: 13.75em) and (max-width: 60em) {
+
+      /* line 311, ../sass/style.scss */
+
+      #footer .message button {
+
+        float: left;
+
+        display: block;
+
+        margin-right: 7.42297%;
+
+        width: 100%; }
+
+        /* line 38, ../sass/neat/grid/_span-columns.scss */
+
+        #footer .message button:last-child {
+
+          margin-right: 0; } }
+
+
+
+/* line 327, ../sass/style.scss */
+
+#gnar-logo {
+
+  background-color: #e4eae8; }
+
+  /* line 330, ../sass/style.scss */
+
+  #gnar-logo img {
+
+    max-width: 450px;
+
+    width: 50%; }
+
+
+
+/* line 336, ../sass/style.scss */
+
+#slap-logo {
+
+  background: url("../img/slapbg.jpg") no-repeat;
+
+  background-size: cover;
+
+  padding: 0 0 0 0; }
+
+  /* line 341, ../sass/style.scss */
+
+  #slap-logo img {
+
+    max-width: 450px;
+
+    width: 50%; }
+
+
+
+/* line 348, ../sass/style.scss */
+
+#gnar-footer {
+
+  background-color: #345c64;
+
+  color: white; }
+
+  /* line 352, ../sass/style.scss */
+
+  #gnar-footer .logo-row {
+
+    float: left;
+
+    display: block;
+
+    margin-right: 2.35765%;
+
+    width: 100%; }
+
+    /* line 38, ../sass/neat/grid/_span-columns.scss */
+
+    #gnar-footer .logo-row:last-child {
+
+      margin-right: 0; }
+
+    /* line 354, ../sass/style.scss */
+
+    #gnar-footer .logo-row img {
+
+      max-width: 1000px; }
+
+  /* line 358, ../sass/style.scss */
+
+  #gnar-footer .footer-content-row {
+
+    float: left;
+
+    display: block;
+
+    margin-right: 2.35765%;
+
+    width: 100%; }
+
+    /* line 38, ../sass/neat/grid/_span-columns.scss */
+
+    #gnar-footer .footer-content-row:last-child {
+
+      margin-right: 0; }
+
+    /* line 361, ../sass/style.scss */
+
+    #gnar-footer .footer-content-row .footer-text {
+
+      float: left;
+
+      display: block;
+
+      margin-right: 2.35765%;
+
+      width: 48.82117%;
+
+      font-size: 25pt; }
+
+      /* line 38, ../sass/neat/grid/_span-columns.scss */
+
+      #gnar-footer .footer-content-row .footer-text:last-child {
+
+        margin-right: 0; }
+
+      /* line 364, ../sass/style.scss */
+
+      #gnar-footer .footer-content-row .footer-text a {
+
+        color: white; }
+
+    /* line 368, ../sass/style.scss */
+
+    #gnar-footer .footer-content-row .gnestor {
+
+      float: left;
+
+      display: block;
+
+      margin-right: 2.35765%;
+
+      width: 48.82117%; }
+
+      /* line 38, ../sass/neat/grid/_span-columns.scss */
+
+      #gnar-footer .footer-content-row .gnestor:last-child {
+
+        margin-right: 0; }
+
+      /* line 370, ../sass/style.scss */
+
+      #gnar-footer .footer-content-row .gnestor img {
+
+        max-width: 500px; }
+
+
+
+/* line 379, ../sass/style.scss */
+
+.hidden-wufoo {
+
+  display: none; }
+
+
+
+/* line 385, ../sass/style.scss */
+
+#merch .merch-item {
+
+  float: left;
+
+  display: block;
+
+  margin-right: 2.35765%;
+
+  width: 48.82117%;
+
+  text-align: center;
+
+  font-size: 2em;
+
+  min-height: 470px; }
+
+  /* line 38, ../sass/neat/grid/_span-columns.scss */
+
+  #merch .merch-item:last-child {
+
+    margin-right: 0; }
+
+  /* line 52, ../sass/neat/grid/_omega.scss */
+
+  #merch .merch-item:nth-child(2n) {
+
+    margin-right: 0; }
+
+  /* line 57, ../sass/neat/grid/_omega.scss */
+
+  #merch .merch-item:nth-child(2n+1) {
+
+    clear: left; }
+
+  @media screen and (min-width: 13.75em) and (max-width: 60em) {
+
+    /* line 385, ../sass/style.scss */
+
+    #merch .merch-item {
+
+      float: left;
+
+      display: block;
+
+      margin-right: 7.42297%;
+
+      width: 100%; }
+
+      /* line 38, ../sass/neat/grid/_span-columns.scss */
+
+      #merch .merch-item:last-child {
+
+        margin-right: 0; } }
+
+/* line 395, ../sass/style.scss */
+
+#merch img {
+
+  width: 100%; }
+
+
+
+.emailtxtfield  {
+
+  width: 80%;
+
+  padding: 10px;
+
+  border: none;
+
+  border-radius: 20px 0px 20px 20px;
+
+  outline: none;
+
+  padding-left: 30px;
+
+  color: #494949;
+
+  font-size: 38px;
+
+  font-weight: 100;
+
+  text-align: center;
+
+  margin-top: 20px;
+
+  border-right-radius: 0px;
+
+}
+
+.emailbutton  {
+
+  font-size: 38px;
+
+  padding: 10px;
+
+  border: none;
+
+  background: #FF7019;
+
+  border-radius: 0px 20px 20px 20px;
+
+  color: #FFFFFF;
+
+  font-weight: 100;
+
+}
+.buybutton  {
+  
+  font-weight: 100;
+
+  font-family:arial;
+
+  font-size: 38px;
+
+  padding: 10px;
+
+  border: none;
+
+  background: #FF7019;
+
+  border-radius: 0px 20px 0px 20px;
+
+  color: #FFFFFF;
+
+  display:block;
+
+  text-decoration:none;
+
+
+  width:400px;
+
+}
+
+
+

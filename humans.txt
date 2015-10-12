@@ -1,0 +1,26 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+	person: Ben Beeecher
+	Twitter: @kanja
+	From:New York City, New York, USA
+
+	another person: Chris Weed
+	Twitter: @pooploverIlovepoop
+	From:Pittsburg, middle of no where, USA
+
+	some guy who makes things pretty: Max Temkin
+	Twitter: @maxsomething
+	From:Chicago, Illanoize, USA
+
+
+    <name> -- <role> -- <twitter>
+
+# THANKS
+
+    <name>
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3, Neat, Bourbon

@@ -1,0 +1,37 @@
+//gnarwhal variables
+@import 'neat/neat-helpers';
+
+$dark-blue: #0b3543;
+$kindof-dark-blue: #335c65;
+$middle-blue: #4f7282;
+$lightish-blue: #7895a3;
+$light-blue: #e3ebe9;
+$gnar-logo-bg: #e4eae8;
+$gnar-footer-bg: #345c64;
+
+//HvZ variables
+$green: #4fb99f;
+$yellow: #f2b134;
+$red: #ed553b;
+$teal: #068587;
+$dark-blue: #112f41;
+
+$input-background: #f1f1f1;
+$submit-background: #c6c6c6;
+
+//$visual-grid: true;
+$visual-grid-color: #E6F6FF;
+$visual-grid-opacity: 0.4;
+$visual-grid-index: "front";
+
+
+$mobile-size:em(220);
+$tablet-size:720px;
+$desktop-size:em(960);
+$largedesktop-size:em(1050);
+
+// Bourbon Neat Breakpoints
+$mobile: new-breakpoint(min-width $mobile-size max-width $desktop-size 4);
+$tablet: new-breakpoint(min-width $tablet-size 8);
+$desktop: new-breakpoint(min-width $desktop-size 12);
+//$largedesktop: new-breakpoint(min-width $largedesktop-size 16);

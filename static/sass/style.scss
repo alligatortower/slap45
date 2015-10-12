@@ -1,0 +1,399 @@
+/* http://neat.bourbon.io/docs/ */
+@import 'bourbon/bourbon';
+@import "variables";
+@import 'neat/neat';
+
+html, body {
+    height: 100%;
+}
+body {
+    position:relative;
+    font-family: "ff-tisa-web-pro",serif;
+}
+h2, h3, p, blockquote, small, li {
+    line-height:1.3em;
+    @include row();
+}
+h3 {
+    text-align:right;
+    font-size:2em;
+}
+
+p {
+    margin-top:0px;
+}
+
+section {
+    width: 100%;
+    height: auto;
+    min-height: 100% !important;
+    -webkit-transform: translate3d(0,0,0);
+}
+
+.contents {
+    @include outer-container;
+    @include pad(10% 0 15% 0);
+
+}
+
+.black {
+    background-color: black;
+    color: white;
+}
+.red {
+    background-color: $red;
+    color: white;
+}
+
+.teal {
+    background-color: $teal;
+    color: white;
+}
+
+.yellow {
+    background-color: $yellow;
+    color:black;
+}
+
+.white {
+    background-color: white;
+    color:black;
+}
+
+#hvz-logo {
+    background: url('../img/webhvzsmall.jpg') no-repeat;
+    background-size: cover;
+    @include pad(0 0 0 0);
+
+    img {
+        @include shift(3);
+        @include span-columns(6);
+        @include media($mobile) {
+            @include shift(0);
+            @include span-columns(4);
+        }
+    }
+}
+
+
+#intro {
+    text-align:center;
+
+    p {
+        font-size:38pt;
+    }
+
+    img {
+        width:100%;
+        max-width:1000px;
+    }
+}
+
+#history {
+    @include pad(0 0 0 0);
+
+    p {
+        font-size:30pt;
+    }
+
+    .history-text {
+        @include row();
+    }
+    #videos {
+        @include row();
+        height:180px;
+
+        .video-holder {
+            @include span-columns(4);
+            @include media($mobile) {
+                @include span-columns(4);
+            }
+            text-align:center;
+
+            .video {
+
+
+            }
+            .video-label {
+                font-size:14px;
+            }
+        }
+    }
+
+}
+#quote {
+    blockquote {
+        font-size:55pt; // first sentence on first line
+        font-style:italic;// italic
+    }
+}
+
+#rules {
+    p {
+        font-size:20pt;
+    }
+
+    h2 {
+        font-size:22pt;
+    }
+    a {
+        color:black;
+    }
+    .contents {
+    @include pad(10% 0 20% 0);
+
+    }
+
+    .equipment-row {
+        min-height: 240px;
+        @include row();
+        .equipment-item {
+            @include span-columns(4);
+            @include media($mobile) {
+                @include span-columns(4);
+            }
+            .eq-big-img {
+                width:100%
+            }
+            .eq-label {
+                font-size:18pt;
+
+            }
+            .check {
+                position:relative;
+                top:15px;
+                max-width:20%;
+            }
+        }
+    }
+    .no-play-row {
+        min-height: 280px;
+        @include row();
+        margin-bottom:30px;
+        .no-play-item {
+            @include span-columns(2);
+            &:first-child {
+                @include shift(1);
+                @include media($mobile) {
+                    @include shift(0);
+                }
+            }
+            @include media($mobile) {
+                @include span-columns(4);
+            }
+
+            vertical-align:top;
+
+            .no-play-img {
+                width:100%
+            }
+            .no-play-label {
+                font-size:18pt;
+            }
+        }
+
+    }
+    .safety-row {
+        @include row();
+        .safety-item {
+            @include span-columns(6);
+            @include media($mobile) {
+                @include span-columns(4);
+            }
+
+
+            .safety-img {
+                @include span-columns(2 of 6);
+                @include media($mobile) {
+                    @include span-columns(4 of 4);
+                }
+
+                vertical-align:top;
+                position:relative;
+            }
+
+            .safety-text {
+                @include span-columns(4 of 6);
+                @include media($mobile) {
+                    @include span-columns(4 of 4);
+                }
+
+                vertical-align:top;
+
+                ol {
+                    list-style-position: inside;
+                    margin-left:0px;
+                    padding-left:5px;
+
+                    li {
+                        font-size:25pt;
+                    }
+                }
+            }
+        }
+    }
+    .safety-disclaimer {
+        @include row();
+        margin-top:20px;
+
+        small {
+            font-size:9pt;
+        }
+    }
+    .team-rules-row {
+        @include row();
+
+        .team-column {
+            @include span-columns(6);
+            @include media($mobile) {
+                @include span-columns(4);
+            }
+        }
+    }
+    .dbag-row {
+        @include row()
+    }
+
+}
+
+#info {
+    h2 {
+        font-size:30pt;
+    }
+    p {
+        font-size:25pt;
+        @include pad(0 0 0 40px);
+    }
+    a {
+        color:$yellow;
+    }
+}
+
+#footer {
+    a {
+        color:$red;
+    }
+
+    .gnar-info {
+        @include span-columns(6);
+        @include media($mobile) {
+            @include span-columns(4);
+        }
+
+        img {
+            width:100%;
+        }
+
+
+        li {
+            display:inline;
+        }
+    }
+    .message {
+        @include span-columns(6);
+        @include media($mobile) {
+            @include span-columns(4);
+        }
+
+        .input-fields {
+            display:block;
+            width:100%;
+            background-color:$input-background;
+            border:none;
+            padding:15px;
+        }
+        .message-email {
+            margin-top:15px;
+        }
+        .message-body {
+            margin-top:25px;
+        }
+        button {
+            background-color:$submit-background;
+            border:none;
+            padding:15px;
+            float:right;
+            margin-top:20px;
+            @include media($mobile) {
+                @include span-columns(4);
+            }
+
+        }
+    }
+}
+
+// GNARWHAL
+
+#gnar-logo {
+    background-color:$gnar-logo-bg;
+
+    img {
+        max-width: 450px;
+        width:50%
+    }
+}
+
+#slap-logo {
+    background: url('../img/slapbg.jpg') no-repeat;
+    background-size: cover;
+    @include pad(0 0 0 0);
+
+    img {
+        max-width: 450px;
+        width:50%;
+    }
+
+}
+
+#gnar-footer {
+    background-color:$gnar-footer-bg;
+    color:white;
+
+    .logo-row {
+        @include span-columns(12);
+        img {
+            max-width:1000px;
+        }
+    }
+    .footer-content-row {
+        @include span-columns(12);
+
+        .footer-text {
+            @include span-columns(6 of 12);
+            font-size:25pt;
+            a {
+                color:white;
+            }
+        }
+        .gnestor {
+            @include span-columns(6 of 12);
+            img {
+                max-width:500px;
+            }
+        }
+    }
+}
+
+//wufoo
+
+.hidden-wufoo {
+    display:none;
+}
+
+
+#merch {
+    .merch-item {
+        @include span-columns(6);
+        @include omega(2n);
+        text-align: center;
+        font-size:2em;
+        min-height: 470px;
+        @include media($mobile) {
+            @include span-columns(4);
+        }
+    }
+    img {
+        width: 100%;
+    }
+
+}
