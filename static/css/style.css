@@ -969,36 +969,32 @@ section {
 /* line 327, ../sass/style.scss */
 
 #gnar-logo {
-
-  background-color: #e4eae8; }
+  background-color: #e4eae8;
+}
 
   /* line 330, ../sass/style.scss */
 
-  #gnar-logo img {
-
-    max-width: 450px;
-
-    width: 50%; }
+#gnar-logo img {
+  max-width: 450px;
+  width: 50%;
+}
 
 
 
 /* line 336, ../sass/style.scss */
 
 #slap-logo {
-
   background: url("../img/slapbg.jpg") no-repeat;
-
   background-size: cover;
-
-  padding: 0 0 0 0; }
+  padding: 0 0 0 0;
+}
 
   /* line 341, ../sass/style.scss */
 
-  #slap-logo img {
-
+#slap-logo img {
     max-width: 450px;
-
-    width: 50%; }
+    width: 50%;
+}
 
 
 
@@ -1115,37 +1111,26 @@ section {
 /* line 385, ../sass/style.scss */
 
 #merch .merch-item {
-
   float: left;
-
   display: block;
-
   margin-right: 2.35765%;
-
   width: 48.82117%;
-
   text-align: center;
-
   font-size: 2em;
-
   min-height: 470px; }
-
   /* line 38, ../sass/neat/grid/_span-columns.scss */
 
   #merch .merch-item:last-child {
-
     margin-right: 0; }
 
   /* line 52, ../sass/neat/grid/_omega.scss */
 
   #merch .merch-item:nth-child(2n) {
-
     margin-right: 0; }
 
   /* line 57, ../sass/neat/grid/_omega.scss */
 
   #merch .merch-item:nth-child(2n+1) {
-
     clear: left; }
 
   @media screen and (min-width: 13.75em) and (max-width: 60em) {
@@ -1177,76 +1162,45 @@ section {
 
 
 .emailtxtfield  {
-
   width: 80%;
-
   padding: 10px;
-
   border: none;
-
   border-radius: 20px 0px 20px 20px;
-
   outline: none;
-
   padding-left: 30px;
-
   color: #494949;
-
   font-size: 38px;
-
   font-weight: 100;
-
   text-align: center;
-
   margin-top: 20px;
-
   border-right-radius: 0px;
-
 }
 
 .emailbutton  {
-
   font-size: 38px;
-
   padding: 10px;
-
   border: none;
-
   background: #FF7019;
-
   border-radius: 0px 20px 20px 20px;
-
   color: #FFFFFF;
-
   font-weight: 100;
-
 }
 .buybutton  {
-  
   font-weight: 100;
-
   font-family:arial;
-
   font-size: 38px;
-
   padding: 10px;
-
   border: none;
-
   background: #FF7019;
-
   border-radius: 0px 20px 0px 20px;
-
   color: #FFFFFF;
-
   display:block;
-
   text-decoration:none;
-
-
   width:400px;
-
 }
 
+a{
+  color:white;
+}
 
 
